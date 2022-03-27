@@ -1,4 +1,419 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
 * {
-  padding: 0;
   margin: 0;
+  padding: 90;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  position: fixed;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+.logo {
+  position: fixed;
+  top: 2%;
+  height: 30px;
+  left: 10px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 2%;
+  left: 30%;
+}
+.menu ul li {
+  display: inline-block;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 0 15px;
+  transition: 0.3s all;
+}
+.menu ul li a:hover {
+  background-color: rgba(75, 75, 75, 0.3);
+  border-radius: 8px;
+}
+.menu-2 {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 2%;
+  left: 85%;
+}
+.menu-2 ul li {
+  display: inline-block;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.menu-2 ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 0 15px;
+  transition: 0.3s all;
+}
+.menu-2 ul li a:hover {
+  background-color: rgba(75, 75, 75, 0.3);
+  border-radius: 8px;
+}
+.model-3 h1 {
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  position: absolute;
+  top: 27%;
+  left: 45%;
+}
+.model-3 p {
+  position: absolute;
+  top: 34%;
+  left: 43%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.model-3 a {
+  color: black;
+  font-weight: bold;
+}
+.button-1 {
+  background-color: rgb(44, 44, 44);
+  border-radius: 20px;
+  border-style: none;
+  position: absolute;
+  top: 95%;
+  left: 35%;
+  font-size: 15px;
+  font-weight: bold;
+  width: 260px;
+  height: 40px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: rgb(255, 255, 255);
+}
+.button-2 {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  border-style: none;
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  font-size: 15px;
+  font-weight: bold;
+  width: 260px;
+  height: 40px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+.model-y h1 {
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  position: absolute;
+  top: 170%;
+  left: 45%;
+}
+.model-y p {
+  position: absolute;
+  top: 178%;
+  left: 43%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.model-y a {
+  color: black;
+  font-weight: bold;
+}
+.button-3 {
+  background-color: rgb(44, 44, 44);
+  border-radius: 20px;
+  border-style: none;
+  position: absolute;
+  top: 250%;
+  left: 35%;
+  font-size: 15px;
+  font-weight: bold;
+  width: 260px;
+  height: 40px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: rgb(255, 255, 255);
+}
+.button-4 {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  border-style: none;
+  position: absolute;
+  top: 250%;
+  left: 50%;
+  font-size: 15px;
+  font-weight: bold;
+  width: 260px;
+  height: 40px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+.model-s h1 {
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  position: absolute;
+  top: 330%;
+  left: 45%;
+}
+.model-s p {
+  position: absolute;
+  top: 338%;
+  left: 43%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.model-s a {
+  color: black;
+  font-weight: bold;
+}
+.button-5 {
+  background-color: rgb(44, 44, 44);
+  border-radius: 20px;
+  border-style: none;
+  position: absolute;
+  top: 400%;
+  left: 35%;
+  font-size: 15px;
+  font-weight: bold;
+  width: 260px;
+  height: 40px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: rgb(255, 255, 255);
+}
+.button-6 {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  border-style: none;
+  position: absolute;
+  top: 400%;
+  left: 50%;
+  font-size: 15px;
+  font-weight: bold;
+  width: 260px;
+  height: 40px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+.model-x h1 {
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  position: absolute;
+  top: 480%;
+  left: 45%;
+}
+.model-x p {
+  position: absolute;
+  top: 488%;
+  left: 43%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.model-x a {
+  color: black;
+  font-weight: bold;
+}
+.button-7 {
+  background-color: rgb(44, 44, 44);
+  border-radius: 20px;
+  border-style: none;
+  position: absolute;
+  top: 550%;
+  left: 35%;
+  font-size: 15px;
+  font-weight: bold;
+  width: 260px;
+  height: 40px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: rgb(255, 255, 255);
+}
+.button-8 {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  border-style: none;
+  position: absolute;
+  top: 550%;
+  left: 50%;
+  font-size: 15px;
+  font-weight: bold;
+  width: 260px;
+  height: 40px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+.solar-panel h1 {
+  font-size: 47px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  position: absolute;
+  top: 600%;
+  left: 43.5%;
+}
+.solar-panel p {
+  position: absolute;
+  top: 608%;
+  left: 43%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.button-9 {
+  background-color: rgb(44, 44, 44);
+  border-radius: 20px;
+  border-style: none;
+  position: absolute;
+  top: 670%;
+  left: 35%;
+  font-size: 15px;
+  font-weight: bold;
+  width: 260px;
+  height: 40px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: rgb(255, 255, 255);
+}
+.button-10 {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  border-style: none;
+  position: absolute;
+  top: 670%;
+  left: 50%;
+  font-size: 15px;
+  font-weight: bold;
+  width: 260px;
+  height: 40px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+.solar-roof h1 {
+  font-size: 47px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  position: absolute;
+  top: 724%;
+  left: 44.5%;
+}
+.solar-roof p {
+  position: absolute;
+  top: 732%;
+  left: 43%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.button-11 {
+  background-color: rgb(44, 44, 44);
+  border-radius: 20px;
+  border-style: none;
+  position: absolute;
+  top: 795%;
+  left: 35%;
+  font-size: 15px;
+  font-weight: bold;
+  width: 260px;
+  height: 40px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: rgb(255, 255, 255);
+}
+.button-12 {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  border-style: none;
+  position: absolute;
+  top: 795%;
+  left: 50%;
+  font-size: 15px;
+  font-weight: bold;
+  width: 260px;
+  height: 40px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+.accessories h1 {
+  font-size: 47px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  position: absolute;
+  top: 870%;
+  left: 43.5%;
+}
+.button-13 {
+  background-color: rgb(44, 44, 44);
+  border-radius: 20px;
+  border-style: none;
+  position: absolute;
+  top: 935%;
+  left: 43%;
+  font-size: 15px;
+  font-weight: bold;
+  width: 260px;
+  height: 40px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: rgb(255, 255, 255);
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  top: 950%;
+  left: 27%;
+font-size: 15px;
+}
+
+.footer li {
+  display: inline-block;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  font-weight: bolder;
+  margin: 0px 10px;
 }
